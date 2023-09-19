@@ -2,6 +2,8 @@ package main
 
 import(
 	"fmt"
+	"github.com/crystinameth/discord/bot"	
+	"github.com/crystinameth/discord/config"
 )
 
 func main(){
@@ -12,7 +14,7 @@ func main(){
 		return
 	}
 
-	bot.start()
+	bot.Start()
 
 	<-make(chan struct{})
 	return
